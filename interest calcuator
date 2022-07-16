@@ -1,0 +1,22 @@
+iPrice = input("input the original price = ")
+
+tax = input("input monthly tax in decimals = ")
+
+answer = input("simple or compound? : ")
+
+
+if answer == "simple":
+  simpleinterest = float(tax)*12*float(iPrice)+float(iPrice)
+  print("simple interest in a year = ", simpleinterest)
+if answer == "compound":
+  compoundinterest = float(iPrice)
+  tax = float(tax)
+  P = float(iPrice)
+  r = tax
+  n = 12
+  t = 1
+  a = P*(1+(r/n))^(n)
+  print("compound interest in a year = ", a)
+else:
+  print("invalid input")
+  
