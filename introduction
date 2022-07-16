@@ -1,0 +1,19 @@
+name = input("What is your name? ")
+
+def say_hello(name):
+  print("hello, ", (name.capitalize()))
+
+say_hello(name)
+
+age = input("how old are you? ")
+
+
+def introduction(name, age):
+  print(name, "is", age, "years old.")
+  
+  if int(age) > 18:
+    print((name.capitalize()), "is a adult.")
+  else:
+    print((name.capitalize()), "is a child.")
+
+introduction((name.capitalize()), age)
