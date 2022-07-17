@@ -1,0 +1,8 @@
+#function for calculating sum
+def list_sum(nums):
+  sum = 0
+  for x in nums:
+    sum = sum + x
+  return sum
+a = [-1, 1, -2, 2, 2, 2]
+print("the sum is", list_sum(a))
