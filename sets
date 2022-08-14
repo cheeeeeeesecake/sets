@@ -1,4 +1,4 @@
-#sum
+#sum int
 def setsum(setname):
   sum = 0
   for x in setname:
@@ -8,7 +8,7 @@ def setsum(setname):
 set_1 = {1, 2, 7, 0, 5}
 print("the total of the set is", setsum(set_1))
 
-#sum
+#sum str
 def setsum(setname):
   sum = ""
   for x in setname:
